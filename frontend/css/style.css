@@ -3,19 +3,19 @@
 }
 .sidelist{
     margin: 2px;
-    width: 90px;
+    width: 100px;
     display: flex;
     flex-direction:column;
     position: relative;
     left:0px;
-    transition: all .5s ease;
+    transition: all .100s ease;
 }
 .sidelist span{
-    border: 1px solid;
+    border: 5px solid;
     padding: 5px;
 }
 .isHidden{
     position: absolute;
     left:-100px;
-    transition: all .5s ease;
+    transition: all .100s ease;
 }
