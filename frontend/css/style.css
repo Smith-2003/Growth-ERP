@@ -3,7 +3,7 @@
 }
 .sidelist{
     margin: 2px;
-    width: 100px;
+    width: 120px;
     display: flex;
     flex-direction:column;
     position: relative;
@@ -16,6 +16,6 @@
 }
 .isHidden{
     position: absolute;
-    left:-100px;
+    left:-125px;
     transition: all .100s ease;
 }

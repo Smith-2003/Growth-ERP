@@ -9,21 +9,21 @@
 <body>
     <div id="page">
         <span id="sidelist" class="sidelist isHidden">
-            <span id="dashboard">Dashboard</span>
-            <span id="crm">CRM</span>
-            <span id="contacts">CONTACTS</span>
-            <span id="inventory">INVENTORY</span>
-            <span id="sales">SALES</span>
-            <span id="purchase">PURCHASES</span>
-            <span id="production">PRODUCTION</span>
-            <span id="logistics">LOGISTICS</span>
-            <span id="accounts">ACCOUNTS</span>
-            <span id="campaign">CAMPAIGN</span>
-            <span id="reports">REPORTS</span>
+            <span id="dashboard" onclick="showdashboard()">Dashboard</span>
+            <span id="crm" onclick="showcrm()">CRM</span>
+            <span id="contacts" onclick="showcontacts()">CONTACTS</span>
+            <span id="inventory" onclick="showinventory()">INVENTORY</span>
+            <span id="sales" onclick="showsales()">SALES</span>
+            <span id="purchase" onclick="showpurchase()">PURCHASES</span>
+            <span id="production" onclick="showproduction()">PRODUCTION</span>
+            <span id="logistics" onclick="showlogistics()">LOGISTICS</span>
+            <span id="accounts" onclick="showaccounts()">ACCOUNTS</span>
+            <span id="campaign" onclick="showcampaign()">CAMPAIGN</span>
+            <span id="reports" onclick="showreports()">REPORTS</span>
         </span>
         <span id="header">
-            <span id="sidelist-btn">someimg</span>
-            <span id="page-name">Dashboard</span>
+            <span id="sidelist-btn" onclick="togglesidelist()">someimg</span>
+            <span id="page-name"></span>
         </span>
     </div>  
     <script src="js/script.js"></script>
