@@ -1,5 +1,7 @@
 #page{
     display: flex;
+    margin: 0px;
+    font-family: cursive;
 }
 .sidelist{
     margin: 2px;
@@ -17,5 +19,15 @@
 .isHidden{
     position: absolute;
     left:-125px;
-    transition: all .100s ease;
+    transition: all .100s ease-in;
+}
+.navbar
+{
+    height: 90px;
+    background-color: blue;
+}
+.logo
+{
+    position: fixed;
+    
 }
