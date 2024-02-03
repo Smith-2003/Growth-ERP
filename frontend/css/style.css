@@ -11,6 +11,7 @@
     position: relative;
     left:0px;
     transition: all .100s ease;
+    border: border box ;
 }
 .sidelist span{
     border: 5px solid;
@@ -24,10 +25,12 @@
 .navbar
 {
     height: 90px;
-    background-color: blue;
+    background-color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black;
 }
 .logo
 {
-    position: fixed;
-    
+    position: absolute;    
+    font-size: xx-small;
 }
