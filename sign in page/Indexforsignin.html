@@ -10,14 +10,18 @@
 <script>function myFunction() {
             var element = document.body;
             element.classList.toggle("dark-mode");
-      }</script>
+            document.getElementById("dark").classList.toggle("fa-solid fa-moon");
+            // document.getElementById("dark").classList.toggle("fa-solid fa-sun");
+      }
+</script>
 <script src="https://kit.fontawesome.com/d9a536a9c4.js" crossorigin="anonymous"></script>
-<div class="darkmode">
-      <button onclick="myFunction()">
-            <i class="fa-solid fa-moon"></i></button>
-</div>
 
 <body>
+      <div class="darkmode">
+            <button onclick="myFunction()">
+                  <i id="dark" class="fa-solid fa-moon"></i>
+            </button>
+      </div>
       <div class="wrapper">
             <form action="">
                   <h1>Login</h1>
