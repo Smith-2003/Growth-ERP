@@ -4,9 +4,13 @@
       padding: 0;
       box-sizing: border-box;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
 }
 .wrapper
 {
+      align-items: center;
+      height: 100vh;
+      display: flex;
       justify-content: center;
       
 }
