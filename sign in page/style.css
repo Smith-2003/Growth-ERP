@@ -4,6 +4,7 @@
       padding: 0;
       box-sizing: border-box;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      /* background-image: linear-gradient(); */
       
 }
 .wrapper
@@ -12,8 +13,18 @@
       height: 100vh;
       display: flex;
       justify-content: center;
+      background-image: linear-gradient(black,white);
+
 }
 .dark-mode {
-      background-color: lightblue;
-      color: cyan;
-    }
+      background-color: lightskyblue;
+      color: rgb(218, 147, 40)  
+}
+    .side-navbar
+{
+            width: 10px;
+            position: fixed;
+            top: 40px;
+            left: 15px;
+}
+     
