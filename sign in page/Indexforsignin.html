@@ -8,8 +8,9 @@
 </head>
 <link rel="stylesheet" href="/sign in page/style.css">
 <script>function myFunction() {
-            var element = document.body;
+            var element = document.getElementById("body");
             element.classList.toggle("dark-mode");
+            element.classList.toggle("container");
             document.getElementById("dark").classList.toggle("fa-moon");
             document.getElementById("dark").classList.toggle("fa-sun");
       }
@@ -17,38 +18,33 @@
 <script src="https://kit.fontawesome.com/d9a536a9c4.js" crossorigin="anonymous"></script>
 
 <body>
-      <div class="darkmode">
-            <button onclick="myFunction()">
-                  <i id="dark" class="umm fa-solid fa-moon"></i>
-            </button>
-      </div>
-      <div class="wrapper">
-            <form action="">
-                  <h1>Login</h1>
-                  <div class="input-box">
-                        <input type="text" placeholder="Username" required>
-                        <i class="fa-regular fa-user"></i>
-                  </div>
-                  <div class="input-box">
-                        <input type="password" placeholder="Password" required>
-                        <i class="fa-solid fa-lock"></i>
-                  </div>
-
-                  <div class="remember-forget">
-                        <label><input type="checkbox">Remember me</label>
-                        <a href="#">Forgot Password?</a>
-                  </div>
-                  <button type="submit" class="btn">Login</button>
-                  <div class="register-link">
-                        <p>Don't have an account? <a href="#">Register A new One</a></p>
-                  </div>
-                  <div class="side-navbar">
-                        <a href="#about">About</a>
-                        <a href="#services">Services</a>
-                        <a href="#clients">Clients</a>
-                        <a href="#contact">Contact</a>
-                  </div>
-            </form>
+      <div id="body"class="container">
+            <div class="darkmode">
+                  <button onclick="myFunction()">
+                        <i id="dark" class="umm fa-solid fa-moon"></i>
+                  </button>
+            </div>
+            <div class="wrapper">
+                  <form action="">
+                        <h1>Login</h1>
+                        <div class="input-box">
+                              <input type="text" placeholder="Username" required>
+                              <i class="fa-regular fa-user"></i>
+                        </div>
+                        <div class="input-box">
+                              <input type="password" placeholder="Password" required>
+                              <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <button type="submit" class="btn" style="height: 25px; width: 60px;">Login</button>
+                        <div class="remember-forget">
+                              <label><input type="checkbox">Remember me</label>
+                              <a href="#">Forgot Password?</a>
+                        </div>
+                        <div class="register-link">
+                              <p>Don't have an account? <a href="#">Register A new One</a></p>
+                        </div>
+                  </form>
+            </div>
       </div>
 </body>
 

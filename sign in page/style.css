@@ -7,24 +7,22 @@
       /* background-image: linear-gradient(); */
       
 }
+.input-box input{
+      width: 250px;
+      height: 30px;
+}
 .wrapper
 {
       align-items: center;
       height: 100vh;
       display: flex;
       justify-content: center;
+      font-size: 28px;
+}
+.container{
       background-image: linear-gradient(black,white);
-
 }
 .dark-mode {
       background-color: lightskyblue;
       color: rgb(218, 147, 40)  
 }
-    .side-navbar
-{
-            width: 10px;
-            position: fixed;
-            top: 40px;
-            left: 15px;
-}
-     
