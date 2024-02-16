@@ -41,7 +41,7 @@ body {
 {
 background-color: yellowgreen;
 }
-.footer
+#footer
 {
   position: absolute;
   display: flexbox;

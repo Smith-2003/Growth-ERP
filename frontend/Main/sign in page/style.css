@@ -20,9 +20,9 @@
       font-size: 28px;
 }
 .container{
-      background-image: linear-gradient(black,white);
+      background-image: linear-gradient(red,lightblue);
 }
 .dark-mode {
-      background-color: lightskyblue;
-      color: rgb(218, 147, 40)  
+      background-color: lightblue;
+      color: red;
 }
