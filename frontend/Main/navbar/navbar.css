@@ -33,9 +33,9 @@ body {
 {
  display: flex;
  position: absolute;
- bottom : 10px;
+ bottom : 0.5px;
  right: 5px;
- gap: 10px;
+ gap: 15px;
 }
 .contacting a:hover
 {
