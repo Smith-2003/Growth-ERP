@@ -32,9 +32,9 @@ body {
 .contacting
 {
  display: flex;
- position: absolute;
+ position:unset;
  bottom : 0.5px;
- right: 5px;
+ left:25px;
  gap: 15px;
 }
 .contacting a:hover
