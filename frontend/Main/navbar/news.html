@@ -9,15 +9,33 @@
 <link rel="stylesheet" href="navbar.css">
 
 <body>
-      <img src="C:\Users\SMITH\OneDrive\Documents\GitHub\Growth-ERP\frontend\EleghantERP.png" alt="ElegantERP">
+      <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+          </div>  
+          </div>
+          <img src="C:\Users\SMITH\OneDrive\Documents\GitHub\Growth-ERP\frontend\EleghantERP.png" alt="ElegantERP">
+          
+          
+          <div class="topnav">
+              <a href="home.html">Home</a>
+              <a class="active" href="news.html">News</a>
+              <a href="contact.html">Contact</a>
+              <a href="about.html">About</a>
+              <a href="/frontend/Main/sign in page/Index.html" id="Signin">Sign up/Log in</a>
+            </div>
+            <div class="content">
+            <script>
+            // When the user scrolls the page, execute myFunction 
+            window.onscroll = function() {myFunction()};
+            
+            function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+            }
+            </script>
 
-      <div class="topnav">
-            <a href="home.html">Home</a>
-            <a class="active" href="news.html">News</a>
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
-            <a href="/frontend/Main/sign in page/Index.html" id="Signin">Sign up/Log in</a>
-      </div>
       <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam natus sed corporis accusamus, ea nobis
             ratione nam, nulla facilis ducimus maiores, maxime rem eius quisquam tempore necessitatibus? Nihil eos, et

@@ -24,7 +24,7 @@
     .scroller[data-animated="true"] .scroller__inner {
       width: max-content;
       flex-wrap: nowrap;
-      animation: scroll var(--_animation-duration, 40s)
+      animation: scroll var(--_animation-duration, 10s)
         var(--_animation-direction, forwards) linear infinite;
     }
   
@@ -34,7 +34,7 @@
     }
     
     .scroller[data-speed="fast"] {
-      --_animation-duration: 40s;
+      --_animation-duration: 50s;
     }
   
     
@@ -53,7 +53,7 @@
       min-block-size: 120vh;
       place-content: center;
       font-family: system-ui;
-      font-size: 1.25rem;
+      font-size: 1.5rem;
     }
     
     .tag-list {
@@ -63,9 +63,9 @@
     }
     
     .tag-list li {
-      padding: 1.50rem;
+      padding: 1.20rem;
       background-color: transparent;
-      border: 5px solid #eceff133;
+      border:solid #8b76df33;
       border-radius: 1rem;
     }
   

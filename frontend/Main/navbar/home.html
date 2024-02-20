@@ -8,6 +8,11 @@
 <link rel="stylesheet" href="navbar.css">
 
 <body>
+  
+<div class="progress-container">
+  <div class="progress-bar" id="myBar"></div>
+</div>  
+</div>
 <img src="C:\Users\SMITH\OneDrive\Documents\GitHub\Growth-ERP\frontend\EleghantERP.png" alt="ElegantERP">
 
 
@@ -18,8 +23,19 @@
     <a href="about.html">About</a>
     <a href="/frontend/Main/sign in page/Index.html" id="Signin">Sign up/Log in</a>
   </div>
-
-<h3><b!! >Welcome to ElegantERP !!</b></h3>
+  <div class="content">
+  <script>
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function() {myFunction()};
+  
+  function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+  }
+  </script>
+<h3><b> Welcome to ElegantERP !!</b></h3>
 
 <br>
 Your comprehensive solution for streamlining and optimizing your enterprise resource planning needs. At ElegantERP, we understand the complexities businesses face in managing various operations efficiently. With our cutting-edge software, we empower organizations to enhance productivity, improve decision-making processes, and achieve sustainable growth.
@@ -55,11 +71,14 @@ Behind ElegantERP is a team of dedicated professionals with years of experience 
 <br>
 Ready to take your business to the next level with ElegantERP? Contact us today to schedule a demo or learn more about our solutions. Join the countless businesses worldwide that trust ElegantERP to streamline their operations, boost efficiency, and drive growth. Experience the elegance of ERP with ElegantERP.
 <br>
+
+
   <div class="contacting">
     <a href="https://wa.me/+919324172025">Whatsapp Us</a><br>
     <a href="tel:+919324172025">Call Us</a><br>
     <a href="mailto:digital.smith.2712@gmail.com">Mail Us</a>
   </div>
+
 </body>
 
 </html>
