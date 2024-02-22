@@ -7,12 +7,9 @@
 </head>
 <link rel="stylesheet" href="navbar.css">
 
-<body>
-
-  
-  
+<body>  
   <div class="topnav">
-    <a class="active" href="home.html"></a>
+    <a id="home" class="active" href="home.html"></a>
     <a href="news.html">News</a>
     <a href="contact.html">Contact</a>
     <a href="about.html">About</a>
@@ -23,17 +20,20 @@
   </div>
 
   <div class="content">
-    <script>
-      // When the user scrolls the page, execute myFunction 
-      window.onscroll = function () { myFunction() };
-
-      function myFunction() {
-        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        var scrolled = (winScroll / height) * 100;
-        document.getElementById("myBar").style.width = scrolled + "%";
-      }
-    </script>
+<script src="navbar.js"></script>
+<div class="scroller" data-speed="fast">
+  <ul class="tag-list scroller__inner">
+    <marquee direction="right"> <li><img src="EleghantERP.png" alt="" width="20px"></li>
+    <li> <img src="EleghantERP.png" alt=""width="20px">
+    </li>
+    <li><img src="EleghantERP.png" alt="" width="20px"></li>
+    <li><img src="EleghantERP.png" alt="" width="20px"></li>
+    <li><img src="EleghantERP.png" alt="" width="20px"></li>
+    <li><img src="EleghantERP.png" alt="" width="20px"></li>
+    <li><img src="EleghantERP.png" alt="" width="20px"></li>
+  </ul>
+</marquee>
+</div>
     <h3><b> Welcome to ElegantERP !!</b></h3>
 
     <br>
@@ -85,7 +85,7 @@
     about our solutions. Join the countless businesses worldwide that trust ElegantERP to streamline their operations,
     boost efficiency, and drive growth. Experience the elegance of ERP with ElegantERP.
     <br>
-
+  </div>
 
     <div class="contacting">
       <a href="https://wa.me/+919324172025">Whatsapp Us</a><br>
