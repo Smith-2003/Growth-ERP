@@ -23,3 +23,18 @@ function addAnimation() {
       var scrolled = (winScroll / height) * 100;
       document.getElementById("myBar").style.width = scrolled + "%";
     }
+    $(function() {
+      $('#contact').click(function() {
+        $('#contactForm').fadeToggle();
+      })
+      $(document).mouseup(function (e) {
+        var container = $("#contactForm");
+    
+        if (!container.is(e.target)
+            && container.has(e.target).length === 0)
+        {
+            container.fadeOut();
+        }
+      });
+    });
+    

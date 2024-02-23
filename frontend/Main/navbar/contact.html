@@ -7,7 +7,7 @@
       <title>Contacts</title>
 </head>
 <link rel="stylesheet" href="navbar.css">
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <body>
       <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
@@ -84,7 +84,7 @@
             <br>
             Best Regards, <br>
             The EleganERP Team
-            <div class="container">
+            <!-- <div class="container">
                   <p><b>Contact Us</b></p>
                   <div class="contact-form">
                         <form action="#" method="post">
@@ -105,6 +105,17 @@
                               </div>
                         </form>
                   </div>
+            </div> -->
+            <div id="contact" class="formBtn">Contact</div>
+            <div id="contactForm">
+              <h1 style="margin-bottom: 10px;">Keep in touch</h1>
+              <form>
+                <input placeholder="Name" type="text" required />
+                <input placeholder="Email" type="email" required />
+                <input placeholder="Subject" type="text" required />
+                <input placeholder="Message"/>
+                <button class="formBtn" type="submit">Submit</button>
+              </form>
             </div>
       </footer>
 </div>
