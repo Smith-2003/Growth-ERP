@@ -27,6 +27,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  z-index: 2;
 }
 
 .topnav a:hover {
@@ -89,6 +90,7 @@ body {
 }
 .scroller {
   max-width: 750px;
+  z-index: 3;
 }
 
 .scroller__inner {
